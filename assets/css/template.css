@@ -1,0 +1,100 @@
+
+.container-base {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* ################ Menu Principal ################ */
+@media (max-width: 768px) {
+    .menu-principal .logotipo {
+        display: none;
+    }
+}
+
+.menu-principal {
+
+}
+
+.menu-principal .logotipo {
+    margin-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.logotipo img {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+.logotipo img:hover {
+    border: 2px solid rgba(0,0,0,.4)
+}
+
+/* ################ Home ############## */
+.container-principal {
+    border-right: 1px solid #e3e3e3;
+    border-left: 1px solid #e3e3e3;
+}
+
+.home .home-head {
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid #e3e3e3;
+    height: 60px;
+    position: fixed;
+    z-index: 10000;
+    width: 49.8%;
+}
+
+.home-head h1 {
+    font-size: 20pt;
+}
+
+.home .post {
+    margin-top: 60px;
+}
+
+.home .feed {
+    border-top: 10px solid #e3e3e3;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+/* ################ Coluna Direita ############## */
+.coluna-direita {
+
+}
+
+.coluna-direita .form-busca {
+    height: 50px;
+    border-bottom: 1px solid #fff;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+}
+
+.form-busca .input-group .form-control {
+    background-color: #F5F5F5;
+    border-radius: 25px;
+    height: 40px;
+}
+
+.coluna-direita .notice {
+    background-color: #F5F5F5;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 5px;
+}
+
+.coluna-direita .notice {
+    margin-top: 10px;
+}
+
+.notice .notice-title {
+    border-bottom: 1px solid #fff;
+}
+
+.notice-title h1 {
+    font-size: 15pt;
+    text-align: center;
+}
